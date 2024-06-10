@@ -1,3 +1,5 @@
+use corelib::get_version;
+
 fn main() {
-    println!("Hello, world!");
+    println!("core v{}", get_version());
 }
