@@ -13,6 +13,7 @@
   <img alt="GitHub License" src="https://img.shields.io/github/license/acridotheres/acridotheres">
   <img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/acridotheres/acridotheres/total">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/acridotheres/acridotheres?style=flat">
+  <a href="https://ko-fi.com/le0_x8"><img alt="Donate" src="https://img.shields.io/badge/donate-080?logo=ko-fi&logoColor=fff"></a>
 </i></p>
 
 <hr />
@@ -62,8 +63,5 @@ This project is licensed under [MIT license](LICENSE).
 <p align="center">
   <a href="#start-of-content">
     <img src="https://banner.acridotheres.com/star.jpg" alt="Please star this repository :)">
-  </a>
-  <a href="https://ko-fi.com/le0_x8">
-    <img src="https://banner.acridotheres.com/donate.jpg" alt="Donate to Acridotheres!">
   </a>
 </p>
