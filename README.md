@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://acridotheres.com/logo.png" height="128">
+  <img src="https://acridotheres.com/favicon.png" height="128" alt="Acridotheres logo">
 </p>
 <h1 align="center">
   Acridotheres
@@ -61,6 +61,6 @@ This project is licensed under [MIT license](LICENSE).
 
 <p align="center">
   <a href="#start-of-content">
-    <img src="https://banner.acridotheres.com/star.png">
+    <img src="https://banner.acridotheres.com/star.png" alt="Please star this repository :)">
   </a>
 </p>
