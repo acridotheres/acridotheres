@@ -39,10 +39,28 @@ Request a new format by [creating a new issue](https://github.com/acridotheres/c
 
 Formats marked with an asterisk (*) are not really archive formats, but Acridotheres still supports them :)
 
+## FAQ
+
+### What is HSSP? Why is it special?
+
+HSSP (High-Speed Secure Package) is Acridotheres' custom archiving format. It is more adaptable and furture-proof than any other of the supported archive types. In version 8, it will get rebranded to HIA, the HSSP Infinity Archive as this will be the last update to the file structure and literally will have no limits.
+
+### I can't create a RAR archive, why?
+
+RARlab's TOS don't allow other programs than WinRAR to create RAR archives, so we don't have that feature to avoid legal issues.
+
+### What platforms are supported?
+
+We currently only support Linux and Windows. Mobile versions are planned. MacOS is likely not going to be in development soon as I don't want to pay 800$ for a Mac Mini just to develop applications for this platform (this would be a massive downgrade from my Arch Linux PC I built myself lol). You can try compiling Acridotheres yourself, though.
+
+## License
+
+This project is licensed under [MIT license](LICENSE).
+
 <hr />
 
 <p align="center">
-  <a href="#top">
+  <a href="#start-of-content">
     <img src="https://banner.acridotheres.com/star.png">
   </a>
 </p>
