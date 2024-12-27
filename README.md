@@ -63,4 +63,7 @@ This project is licensed under [MIT license](LICENSE).
   <a href="#start-of-content">
     <img src="https://banner.acridotheres.com/star.jpg" alt="Please star this repository :)">
   </a>
+  <a href="https://ko-fi.com/le0_x8">
+    <img src="https://banner.acridotheres.com/donate.jpg" alt="Donate to Acridotheres!">
+  </a>
 </p>
