@@ -61,6 +61,6 @@ This project is licensed under [MIT license](LICENSE).
 
 <p align="center">
   <a href="#start-of-content">
-    <img src="https://banner.acridotheres.com/star.png" alt="Please star this repository :)">
+    <img src="https://banner.acridotheres.com/star.jpg" alt="Please star this repository :)">
   </a>
 </p>
