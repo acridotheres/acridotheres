@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://acridotheres.com/logo.png" height="128" alt="Acridotheres logo">
+  <img src="https://acridotheres.com/favicon.png" height="128" alt="Acridotheres logo">
 </p>
 <h1 align="center">
   Acridotheres
