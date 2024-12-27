@@ -7,7 +7,7 @@
 <p align="center"><i>
   The fast, modern, open-source and secure file archiver.<br>
   <sub>
-    Created with <a href="https://github.com/rust-lang/rust">Rust</a> &amp; <a href="https://github.com/slint-ui/slint">Slint</a>.
+    Created with <a href="https://github.com/rust-lang/rust#readme">Rust</a> &amp; <a href="https://github.com/slint-ui/slint#readme">Slint</a>.
   </sub>
   <br><br>
   <img alt="GitHub License" src="https://img.shields.io/github/license/acridotheres/acridotheres">
