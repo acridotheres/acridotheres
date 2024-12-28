@@ -16,7 +16,7 @@
   <a href="https://ko-fi.com/le0_x8"><img alt="Donate" src="https://img.shields.io/badge/donate-080?logo=ko-fi&logoColor=fff"></a>
 </i></p>
 
-<hr />
+---
 
 ## Format support
 
@@ -58,7 +58,7 @@ We currently only support Linux and Windows. Mobile versions are planned. MacOS 
 
 This project is licensed under [MIT license](LICENSE).
 
-<hr />
+---
 
 <p align="center">
   <a href="#start-of-content">
