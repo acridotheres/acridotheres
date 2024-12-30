@@ -18,6 +18,9 @@
 
 ---
 
+> [!NOTE]  
+> This project will not be continued until [slint-ui/slint#4082](https://github.com/slint-ui/slint/issues/4082) is resolved.
+
 ## Format support
 
 Acridotheres currently supports 11 archive formats:
