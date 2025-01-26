@@ -7,7 +7,7 @@
 <p align="center"><i>
   The fast, modern, open-source and secure file archiver.<br>
   <sub>
-    Created with <a href="https://github.com/rust-lang/rust#readme">Rust</a> &amp; <a href="https://github.com/slint-ui/slint#readme">Slint</a>.
+    Created with <a href="https://github.com/rust-lang/rust#readme">Rust</a>, <a href="https://github.com/tauri-apps/tauri#readme">Tauri</a> and <a href="https://github.com/sveltejs/svelte#readme">Svelte</a>.
   </sub>
   <br><br>
   <img alt="GitHub License" src="https://img.shields.io/github/license/acridotheres/acridotheres">
@@ -19,29 +19,38 @@
 ---
 
 > [!NOTE]  
-> This project will not be continued until [slint-ui/slint#4082](https://github.com/slint-ui/slint/issues/4082) is resolved.
+> This project will be ported to Tauri soon.
 
 ## Format support
 
-Acridotheres currently supports 11 archive formats:
+Acridotheres currently supports 11 archive formats through the use of custom libraries. The following table lists all supported formats and their respective libraries.
 
-- HSSP 7 (through [HSSP7](https://github.com/acridotheres/hssp7))
-- ZIP (through [NeoZip](https://github.com/acridotheres/neozip))
-- RAR (through [NeoRar](https://github.com/acridotheres/neorar))
-- HSSP 6 (through [HSSP6](https://github.com/acridotheres/hssp6))
-- HSSP 5 (through [HSSP5](https://github.com/acridotheres/hssp5))
-- HSSP 4 (through [HSSP5](https://github.com/acridotheres/hssp5))
-- UMSBT (through [3ds-formats](https://github.com/acridotheres/3ds-formats))
-- MSBT[*](#-not-a-format) (through [3ds-formats](https://github.com/acridotheres/3ds-formats))
-- HSSP 3 (through [HSSP2](https://github.com/acridotheres/hssp2))
-- HSSP 2 (through [HSSP2](https://github.com/acridotheres/hssp2))
-- SFA (OG HSSP) (through [HSSP2](https://github.com/acridotheres/hssp2))
+| Format                                  | Internal name | Library                                                    |
+| --------------------------------------- | ------------- | ---------------------------------------------------------- |
+| HSSP 7                                  | `hssp7`       | [HSSP7](https://github.com/acridotheres/hssp7)             |
+| ZIP                                     | `zip`         | [NeoZip](https://github.com/acridotheres/neozip)           |
+| [RAR](#i-cant-create-a-rar-archive-why) | `rar`         | [NeoRar](https://github.com/acridotheres/neorar)           |
+| HSSP 6                                  | `hssp6`       | [HSSP6](https://github.com/acridotheres/hssp6)             |
+| HSSP 5                                  | `hssp5`       | [HSSP5](https://github.com/acridotheres/hssp5)             |
+| HSSP 4                                  | `hssp4`       | [HSSP5](https://github.com/acridotheres/hssp5)             |
+| UMSBT                                   | `umsbt`       | [3ds-formats](https://github.com/acridotheres/3ds-formats) |
+| MSBT[\*](#-not-an-archive)              | `msbt`        | [3ds-formats](https://github.com/acridotheres/3ds-formats) |
+| HSSP 3                                  | `hssp3`       | [HSSP2](https://github.com/acridotheres/hssp2)             |
+| HSSP 2                                  | `hssp2`       | [HSSP2](https://github.com/acridotheres/hssp2)             |
+| SFA (HSSP 1)                            | `hssp1`       | [HSSP2](https://github.com/acridotheres/hssp2)             |
 
 Request a new format by [creating a new issue](https://github.com/acridotheres/core/issues/new?assignees=Le0X8&labels=format+request&projects=&template=format-request.md&title=Format+support%3A+%3CNAME%3E).
 
-### *: Not a format
+##### \*: Not an archive
 
-Formats marked with an asterisk (*) are not really archive formats, but Acridotheres still supports them :)
+Formats marked with an asterisk (\*) are not really archive formats, but Acridotheres still supports them :)
+
+### Other internal format names
+
+| Internal name | Description                                                                         |
+| ------------- | ----------------------------------------------------------------------------------- |
+| `auto`        | Automatically detects the archive format based on file extension, magic bytes, etc. |
+| `hssp`        | Any HSSP version. Version is being detected automatically.                          |
 
 ## FAQ
 
@@ -51,7 +60,7 @@ HSSP (High-Speed Secure Package) is Acridotheres' custom archiving format. It is
 
 ### I can't create a RAR archive, why?
 
-RARlab's TOS don't allow other programs than WinRAR to create RAR archives, so we don't have that feature to avoid legal issues.
+RARlab's TOS don't allow other programs than WinRAR to create RAR archives, so we don't support this feature to avoid legal issues.
 
 ### What platforms are supported?
 
