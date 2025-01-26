@@ -1,18 +1,20 @@
 {
-    "editor.tabSize": 4,
-    "errorLens.enabled": true,
-    "errorLens.gutterIconsEnabled": true,
-    "errorLens.gutterIconSet": "squareRounded",
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)|todo!|unimplemented!",
-    "rust-analyzer.check.command": "clippy",
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust-analyzer",
-        "editor.formatOnSave": true,
-    },
+  "svelte.enable-ts-plugin": true,
+  "editor.tabSize": 2,
+  "errorLens.enabled": true,
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.gutterIconSet": "squareRounded",
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)|todo!|unimplemented!",
+  "rust-analyzer.check.command": "clippy",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
 
-    // https://github.com/slint-ui/slint/issues/5961
-    "slint.libraryPaths": {
-        "images": "/home/leo/acridotheres/gui/assets/images",
-        "fonts": "/home/leo/acridotheres/gui/assets/fonts",
-    }
+  // https://github.com/slint-ui/slint/issues/5961
+  "slint.libraryPaths": {
+    "images": "/home/leo/acridotheres/gui/assets/images",
+    "fonts": "/home/leo/acridotheres/gui/assets/fonts"
+  }
 }
