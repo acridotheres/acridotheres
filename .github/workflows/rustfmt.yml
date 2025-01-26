@@ -3,9 +3,9 @@ name: Automated Code Formatting
 on:
   push:
     branches:
-      - "*"
-      - "*/*"
-      - "**"
+      - '*'
+      - '*/*'
+      - '**'
 
 jobs:
   format:
