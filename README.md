@@ -18,9 +18,6 @@
 
 ---
 
-> [!NOTE]  
-> This project will be ported to Tauri soon.
-
 ## Format support
 
 Acridotheres currently supports 11 archive formats through the use of custom libraries. The following table lists all supported formats and their respective libraries.
